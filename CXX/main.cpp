@@ -63,7 +63,10 @@ int myHashInt(int key, int tableSize) {
 */
 
 
-
+/// @brief  
+/// @param key 
+/// @param tableSize 
+/// @return 
 int myHashString(const string& key, int tableSize) {
     int hash = 0;
     for (char c : key) {
