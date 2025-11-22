@@ -51,22 +51,37 @@ int main() {
     }
 }
 
-    //用餘數做 hash
+
+
+/**
+ * @brief Computes the hash index for an integer key using division hashing.
+ * 
+ * @param key  The integer key to hash (can be negative)
+ * @param tableSize    The hash table size (must be > 0, preferably prime)
+ * @return     Hash index in range [0, m-1]
+ */
 int myHashInt(int key, int tableSize) {
     return key % tableSize;
 }
 
+
+
+
 /*
     https://blog.csdn.net/qq_43382960/article/details/124071223    why times 31
-    https://www.cnblogs.com/looyee/articles/11424208.html   
-    there is a lot of theory online explain but still  can't understand full so i have use AI help to understand
+    https://www.cnblogs.com/looyee/articles/11424208.html
 */
 
 
-/// @brief  
-/// @param key 
-/// @param tableSize 
-/// @return 
+
+
+/** 
+* @brief  Computes the hash index for a string key using polynomial rolling hash.
+* @param key 
+* @param tableSize 
+* @return Hash index in range [0, m-1]
+*/
+
 int myHashString(const string& key, int tableSize) {
     int hash = 0;
     for (char c : key) {
