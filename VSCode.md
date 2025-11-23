@@ -63,3 +63,25 @@ Linuxc環境  到 CMD 中打   sudo apt update
             在 VS Code 按 Ctrl+Shift+P → 輸入 Git: Add Remote
             再輸入/選擇你要的repository
             回到主畫面，按雲朵圖示 → 選 Push 或 Publish Branch
+    
+    ###如果需要從github 同步本地端
+
+        第一步
+            按快捷鍵 Ctrl + Shift + P（打開命令面板）
+        
+        第二步
+            輸入 Git: Clone
+        
+        第三步    
+            把 GitHub 倉庫網址貼進去
+
+        第四步
+            選擇要存在電腦的哪個資料夾
+
+        完成後你會看到：
+            左下角：main  ●  (雲朵圖示)
+            狀態列：0 ↓ 0 ↑   ← 表示本機跟 GitHub 完全同步
+
+        之後每天要更新最新版只需要 2 秒：
+        打開專案 → 點左下角雲朵圖示 → 點 Pull或按快捷鍵 Ctrl + Shift + G → 點 Pull）
+        全部最新內容就自動下載下來了！
