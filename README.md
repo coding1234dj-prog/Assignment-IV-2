@@ -31,4 +31,5 @@
  
   結論：**表大小使用質數可大幅降低系統性碰撞**，尤其是除法哈希法。
 
-  
+
+  <img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
