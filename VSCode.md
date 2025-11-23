@@ -63,6 +63,19 @@ Linuxc環境  到 CMD 中打   sudo apt update
             在 VS Code 按 Ctrl+Shift+P → 輸入 Git: Add Remote
             再輸入/選擇你要的repository
             回到主畫面，按雲朵圖示 → 選 Push 或 Publish Branch
+
+        另外一種
+        利用terminal 
+        第一步  在termial  中打 git status 會紅字顯示有修改過的檔案
+
+        第二步   打 git add "file"  file 可以是一個資料夾可以是程式碼當然也可以add 多次
+
+        第三步 再打一次 git status 確認要上傳的檔案（會顯示成綠色的
+
+        第四步 在本地端做成一個"快照" 會讓你輸入跟改訊息內容只要輸入完就可以 ctrl c 輸入訊息標題  ctrl x 確認
+
+        第五步  git push 上傳到github
+    
     
     ###如果需要從github 同步本地端
 
