@@ -49,7 +49,7 @@ Linuxc環境  到 CMD 中打   sudo apt update
     第三步 
         回到VS 要選擇上傳道哪個 repository  又會分成兩種
             
-            第一種  直接到一個新的 repository   在source contronl 中找到雲端的標誌 ![alt text](image-2.png) 點下 或按 Ctrl+Shift+G 就會跳出視窗
+            第一種  直接到一個新的 repository   在source contronl 中找到雲端的標誌  點下 或按 Ctrl+Shift+G 就會跳出視窗
             
             Publish to GitHub
             Publish to Private Repository
@@ -60,6 +60,6 @@ Linuxc環境  到 CMD 中打   sudo apt update
 
             第二種  找到已有的 repository  
 
-            在 VS Code 按 Ctrl+Shift+P → 輸入 Git: Add Remote  ![alt text](image-4.png)  ![alt text](image-5.png)
-            再輸入/選擇你要的repository![alt text](image-3.png)
+            在 VS Code 按 Ctrl+Shift+P → 輸入 Git: Add Remote
+            再輸入/選擇你要的repository
             回到主畫面，按雲朵圖示 → 選 Push 或 Publish Branch
