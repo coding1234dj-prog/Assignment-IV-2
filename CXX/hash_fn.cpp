@@ -14,18 +14,6 @@
  */
 #include "hash_fn.hpp"
 
-int myHashInt(int key, int m) {
-    // TODO: replace with your own design
-    return key % m;  // basic division method
-}
-
-int myHashString(const std::string& str, int m) {
-    unsigned long hash = 0;
-    // TODO: replace with your own design
-    return static_cast<int>(hash % m);  // basic division method
-}
-
-
 /**
  * @brief 計算整數鍵值 hash index
  *

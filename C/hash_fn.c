@@ -15,17 +15,6 @@
 
 #include "hash_fn.h"
 
-int myHashInt(int key, int m) {
-    // TODO: replace with your own design
-    return key % m;  // division method example
-}
-
-int myHashString(const char* str, int m) {
-    unsigned long hash = 0;
-    // TODO: replace with your own design
-    return (int)(hash % m); // basic division method
-}
-
 
 /**
  * @brief 計算整數鍵值 hash index
