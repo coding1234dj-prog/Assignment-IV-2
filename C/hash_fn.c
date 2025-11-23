@@ -27,7 +27,7 @@
  * @return            範圍 [0, table_size-1]  hash index
  */
 
-int my_hash_int(int key, int table_size)
+int myHashInt(int key, int table_size)
 {
     if (table_size <= 0) {
         return 0;  /// 錯誤情況直接回傳 
@@ -52,7 +52,7 @@ int my_hash_int(int key, int table_size)
  * @return            範圍 [0, table_size-1] 的 hash index
  */
 
-int my_hash_string(const char* str, int table_size)
+int myHashString(const char* str, int table_size)
 {
     if (str == NULL || table_size <= 0) {
         return 0;
