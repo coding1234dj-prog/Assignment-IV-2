@@ -81,7 +81,7 @@ int myHashInt(int key, int tableSize) {
 * @param tableSize 
 * @return Hash index in range [0, m-1]
 */
-
+    //1312313134
 int myHashString(const string& key, int tableSize) {
     int hash = 0;
     for (char c : key) {
