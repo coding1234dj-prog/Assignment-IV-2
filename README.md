@@ -1,8 +1,8 @@
-### 我的環境是  linux  版本是 Ubuntu 24.04.3 LTS 
+# Assignment IV - Hash Functions Implementation & Analysis
 
-
-    Developer:  劉弘翔
-    Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com
+    **Developer:  DD**
+    **Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com**
+    **執行環境：Ubuntu 22.04 LTS (Linux) + GCC 13.2 + Make 4.3**
 
     我的公式設計是
     Int : key % size  
@@ -32,4 +32,20 @@
   結論：**表大小使用質數可大幅降低系統性碰撞**，尤其是除法哈希法。
 
 
-  <img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
+    **make**
+<img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
+
+    **make c**
+<img width="581" height="1252" alt="image" src="https://github.com/user-attachments/assets/2422a372-1cd6-4e7c-9e6c-fbfd8d7b6430" />
+<img width="587" height="1364" alt="image" src="https://github.com/user-attachments/assets/5f2c6e31-48bf-4ed6-ba9d-b2814d57ce57" />
+<img width="587" height="358" alt="image" src="https://github.com/user-attachments/assets/41a02d65-244d-48f0-bf50-03d12ec59490" />
+
+    **make cxx**
+<img width="614" height="1264" alt="image" src="https://github.com/user-attachments/assets/7c305383-405d-43d2-ba0d-bdcba4bb9865" />
+<img width="561" height="1342" alt="image" src="https://github.com/user-attachments/assets/6f17b1cb-ba49-4539-b834-82a8ba28fefc" />
+<img width="561" height="366" alt="image" src="https://github.com/user-attachments/assets/be5b2df7-8073-4b58-9b95-fb0437fb40aa" />
+
+    ### Analysis
+    第一個int  很簡單，直接除就好：發生collision?  那是空間不夠大，把size放大就沒這個問題了
+
+    
