@@ -49,7 +49,7 @@ Linuxc環境  到 CMD 中打   sudo apt update
     第三步 
         回到VS 要選擇上傳道哪個 repository  又會分成兩種
             
-            第一種  直接到一個新的 repository   在source contronl 中找到雲端的標誌  點下 或按 Ctrl+Shift+G 就會跳出視窗
+            第一種  直接到一個新的 repository   在source contronl 中找到雲端的標誌點下 或按 Ctrl+Shift+G 就會跳出視窗
             
             Publish to GitHub
             Publish to Private Repository
