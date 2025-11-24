@@ -2,28 +2,32 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: g++ 編譯當前檔案",
-            "command": "/usr/bin/g++",
+            "label": "Build & Run C++ Hash",
+            "type": "shell",
+            "command": "g++",
             "args": [
-                "-fdiagnostics-color=always",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
                 "-g",
-                "-std=c++17",          // 或者 c++20、c++11 看你需要
-                "${file}",
+                "CXX/main.cpp",
+                "CXX/hash_fn.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": [
-                "$gcc"
+                "CXX/hash_function_cpp",
+                "&&",
+                "./CXX/hash_function_cpp"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "用 g++ 編譯 C++"
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
         }
     ]
 }
