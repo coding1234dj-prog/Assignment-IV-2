@@ -1,4 +1,4 @@
-# Assignment IV - Hash Functions Implementation & Analysis
+Assignment IV - Hash Functions Implementation & Analysis
 
     **Developer:  DD**
     **Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com**
