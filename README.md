@@ -59,15 +59,12 @@ make
 
 <img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
 
-```bash
 make c
-
 
 <img width="581" height="1252" alt="image" src="https://github.com/user-attachments/assets/2422a372-1cd6-4e7c-9e6c-fbfd8d7b6430" />
 <img width="587" height="1364" alt="image" src="https://github.com/user-attachments/assets/5f2c6e31-48bf-4ed6-ba9d-b2814d57ce57" />
 <img width="587" height="358" alt="image" src="https://github.com/user-attachments/assets/41a02d65-244d-48f0-bf50-03d12ec59490" />
 
-```bash
 make cxx
 
 <img width="614" height="1264" alt="image" src="https://github.com/user-attachments/assets/7c305383-405d-43d2-ba0d-bdcba4bb9865" />
@@ -84,7 +81,7 @@ make cxx
       編譯器會把 hash * 31 優化成 (hash << 5) - hash，速度非常快。
       Java、C#、Python 等語言的字串哈希都用 31
       所以這已經是業界標準做法了
-      
- ### Reflection
+
+### Reflection
       根據查到的資料來看似乎2^n -1 的倍數是且是質數會是最好的
    
