@@ -54,13 +54,13 @@ Standard: C23 and C++23
  
   結論：**表大小使用質數可大幅降低系統性碰撞**，尤其是除法哈希法。
 
-
+```bash
 make
 
 
 <img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
 
-
+```bash
 make c
 
 
@@ -68,7 +68,7 @@ make c
 <img width="587" height="1364" alt="image" src="https://github.com/user-attachments/assets/5f2c6e31-48bf-4ed6-ba9d-b2814d57ce57" />
 <img width="587" height="358" alt="image" src="https://github.com/user-attachments/assets/41a02d65-244d-48f0-bf50-03d12ec59490" />
 
-
+```bash
 make cxx
 
 <img width="614" height="1264" alt="image" src="https://github.com/user-attachments/assets/7c305383-405d-43d2-ba0d-bdcba4bb9865" />
