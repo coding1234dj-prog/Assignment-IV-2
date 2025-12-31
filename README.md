@@ -5,8 +5,9 @@
     執行環境：Ubuntu 22.04 LTS (Linux) + GCC 13.2 + Make 4.3
 
 ### My Hash Function
-    # Integer Keyse  
-        簡單明瞭，餘數就可以使了    # Non-integer Keys 
+# Integer Keyse  
+        簡單明瞭，餘數就可以使了   
+# Non-integer Keys 
         : ( hash = hash * 31 + c ) % size 
 
 ### Experimental Setup
