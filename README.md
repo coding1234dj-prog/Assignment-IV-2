@@ -72,15 +72,16 @@ Standard: C23 and C++23
 <img width="561" height="366" alt="image" src="https://github.com/user-attachments/assets/be5b2df7-8073-4b58-9b95-fb0437fb40aa" />
 
 ### Analysis
-    第一個int  很簡單，直接除就好：發生collision?  那是空間不夠大，把size放大就沒這個問題了
 
-    str 就是我上查到的資料了
-       31 是個質數（prime）
-      質數可以讓乘法分佈更均勻，減少碰撞。
-       **31 × hash 可以用位運算優化
-      編譯器會把 hash * 31 優化成 (hash << 5) - hash，速度非常快。
-      Java、C#、Python 等語言的字串哈希都用 31
-      所以這已經是業界標準做法了
+第一個int  很簡單，直接除就好：發生collision?  那是空間不夠大，把size放大就沒這個問題了
+
+str 就是我上查到的資料了
+    31 是個質數（prime）
+質數可以讓乘法分佈更均勻，減少碰撞。
+  **31 × hash 可以用位運算優化
+編譯器會把 hash * 31 優化成 (hash << 5) - hash，速度非常快。
+Java、C#、Python 等語言的字串哈希都用 31
+所以這已經是業界標準做法了
 
 ### Reflection
       根據查到的資料來看似乎2^n -1 的倍數是且是質數會是最好的
