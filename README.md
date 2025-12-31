@@ -55,17 +55,17 @@ Standard: C23 and C++23
   結論：**表大小使用質數可大幅降低系統性碰撞**，尤其是除法哈希法。
 
 
-make
+### make
 
 <img width="828" height="141" alt="image" src="https://github.com/user-attachments/assets/3c5a1ada-1562-42e2-8123-27c0aa2324a0" />
 
-make c
+### make c
 
 <img width="581" height="1252" alt="image" src="https://github.com/user-attachments/assets/2422a372-1cd6-4e7c-9e6c-fbfd8d7b6430" />
 <img width="587" height="1364" alt="image" src="https://github.com/user-attachments/assets/5f2c6e31-48bf-4ed6-ba9d-b2814d57ce57" />
 <img width="587" height="358" alt="image" src="https://github.com/user-attachments/assets/41a02d65-244d-48f0-bf50-03d12ec59490" />
 
-make cxx
+## make cxx
 
 <img width="614" height="1264" alt="image" src="https://github.com/user-attachments/assets/7c305383-405d-43d2-ba0d-bdcba4bb9865" />
 <img width="561" height="1342" alt="image" src="https://github.com/user-attachments/assets/6f17b1cb-ba49-4539-b834-82a8ba28fefc" />
