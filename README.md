@@ -4,11 +4,13 @@
     Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com
     執行環境：Ubuntu 22.04 LTS (Linux) + GCC 13.2 + Make 4.3
 
-    我的公式設計是
-    Int : key % size  
-        簡單明瞭，餘數就可以使了
+### My Hash Function
+    # Integer Keyse  
+        簡單明瞭，餘數就可以使了    # Non-integer Keys 
+        : ( hash = hash * 31 + c ) % size 
 
-    str : ( hash = hash * 31 + c ) % size 
+### Experimental Setup
+    
         
 
 ### 為什麼字串哈希要用 31？
