@@ -30,7 +30,9 @@ Standard: C23 and C++23
   # Build only C++ version
   make cxx
   ```
-        
+
+  
+### RESULT AND OUTCOME        
 
 ### 為什麼字串哈希要用 31？
 - 31 是質數，且能被編譯器優化為 `(hash << 5) - hash`
@@ -66,7 +68,7 @@ Standard: C23 and C++23
 <img width="561" height="1342" alt="image" src="https://github.com/user-attachments/assets/6f17b1cb-ba49-4539-b834-82a8ba28fefc" />
 <img width="561" height="366" alt="image" src="https://github.com/user-attachments/assets/be5b2df7-8073-4b58-9b95-fb0437fb40aa" />
 
-    ### Analysis
+### Analysis
     第一個int  很簡單，直接除就好：發生collision?  那是空間不夠大，把size放大就沒這個問題了
 
     str 就是我上查到的資料了
@@ -77,6 +79,6 @@ Standard: C23 and C++23
       Java、C#、Python 等語言的字串哈希都用 31
       所以這已經是業界標準做法了
       
-   ### Reflection
+ ### Reflection
       根據查到的資料來看似乎2^n -1 的倍數是且是質數會是最好的
    
