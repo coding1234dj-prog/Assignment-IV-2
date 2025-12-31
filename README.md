@@ -1,8 +1,8 @@
 ### Assignment IV - Hash Functions Implementation & Analysis
 
-    **Developer:  DD**
-    **Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com**
-    **執行環境：Ubuntu 22.04 LTS (Linux) + GCC 13.2 + Make 4.3**
+    Developer:  劉弘翔
+    Email: s1100860@mail.yzu.edu.tw  / coding1234dj@gmail.com
+    執行環境：Ubuntu 22.04 LTS (Linux) + GCC 13.2 + Make 4.3
 
     我的公式設計是
     Int : key % size  
