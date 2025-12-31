@@ -11,7 +11,25 @@
         : ( hash = hash * 31 + c ) % size 
 
 ### Experimental Setup
-    
+Table sizes tested (m): 10, 11, 37
+Test dataset:
+Integers: 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+Strings: "cat", "dog", "bat", "cow", "ant", "owl", "bee", "hen", "pig", "fox"
+Compiler: GCC and G++
+Standard: C23 and C++23
+
+### Compilation
+- The project uses a comprehensive Makefile that builds both C and C++ versions with proper flags:
+  ```bash
+  # Build both C and C++ versions
+  make all
+  
+  # Build only C version
+  make c
+  
+  # Build only C++ version
+  make cxx
+  ```
         
 
 ### 為什麼字串哈希要用 31？
